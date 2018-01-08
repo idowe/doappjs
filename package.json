@@ -1,6 +1,6 @@
 {
   "name": "doapp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "基于redux,redux-saga和react-router的轻量级前端框架",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,9 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.8",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "vue": "^2.5.13",
+    "vuera": "^0.2.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
@@ -38,6 +40,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "parcel-bundler": "^1.2.0",
+    "parcel-plugin-vue": "^1.5.0",
     "transform-runtime": "^0.0.0"
   }
 }
